@@ -3,7 +3,7 @@ $(document).ready(function() {
     var arr=[0,0,0,0];
     //6 questions, 6 loop iterations
     for (i = 1; i <= 6; i++) {
-      arr[parseInt($("#ans" + (i)).val()-1)] +=1;
+      arr[parseInt($("#ans" + (i)).val())] +=1;
     }
     $("#formOne").toggle();
     $("button.hidden").show();
