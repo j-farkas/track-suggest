@@ -66,3 +66,7 @@ background-color:#ddddff;
 button{
   background-color:#bbbbbb;
 }
+
+input:hover {
+   background-color: #aaeeee;
+ }
