@@ -31,7 +31,11 @@ button.btn:hover{
   background-color:#00dddd;
 }
 
-div.hidden{
+div.well{
   border:1px solid black;
   background-color: white;
+}
+
+button.hidden:hover{
+  background-color:#00dddd;
 }
