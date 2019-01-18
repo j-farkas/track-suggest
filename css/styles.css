@@ -1,3 +1,10 @@
 .hidden{
   display:none;
 }
+
+img{
+  float:left;
+  height:72px;
+  width:72px;
+  margin-right: 5px;
+}
