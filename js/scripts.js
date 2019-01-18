@@ -33,6 +33,7 @@ $(document).ready(function() {
       //Tie
       //check which values are highest
       $(".tie").toggle();
+      $("body").addClass("dontknow");
       var high = 0;
       for(var j=0;j<arr.length;j++)
       {
