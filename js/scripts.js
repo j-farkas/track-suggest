@@ -8,7 +8,6 @@ $(document).ready(function() {
     $("#formOne").toggle();
     $("button.hidden").show();
     $(".result").show();
-    console.log(arr);
 
     if(arr[0] > arr[1] && arr[0] > arr[2] && arr[0] > arr[3]){
       //C# is highest
@@ -67,6 +66,7 @@ $(document).ready(function() {
     $(".result").prepend($("#name").val() + ", ");
     event.preventDefault();
   });
+
   $("button.hidden").click(function(){
     $("#formOne").toggle();
     $(".hidden").hide();
