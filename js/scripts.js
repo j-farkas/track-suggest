@@ -48,16 +48,16 @@ $(document).ready(function() {
         if (parseInt(arr[j]) === high){
           switch(j){
           case 0:
-          $(".tie p").append("CSS<br>");
+          $("#c").show();
             break;
           case 1:
-          $(".tie p").append("Java<br>");
+          $("#j").show();;
             break;
           case 2:
-          $(".tie p").append("PHP<br>");
+          $("#p").show();
             break;
           default:
-          $(".tie p").append("Ruby<br>");
+          $("#r").show();
             break;
           }
         }
