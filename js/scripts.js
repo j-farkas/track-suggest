@@ -4,7 +4,8 @@ $(document).ready(function() {
     for (i = 0; i < 6; i++) {
       arr[parseInt($("#ans" + (i+1)).val()-1)] +=1;
     }
-
+    $("#formOne").toggle();
+    $("button").toggle();
     console.log(arr);
 
     if(arr[0] > arr[1] && arr[0] > arr[2] && arr[0] > arr[3]){
@@ -27,5 +28,9 @@ $(document).ready(function() {
 
 
     event.preventDefault();
+  });
+  $(".hidden").click(function(){
+    $("#formOne").toggle();
+    $("button").toggle();
   });
 });
