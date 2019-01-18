@@ -29,7 +29,8 @@ $(document).ready(function() {
       //Tie
       $(".result").text("You're too indecisive, take the quiz again!");
     }
-
+    console.log($("#name").val());
+$(".result").prepend($("#name").val() + ", ");
 
 
     event.preventDefault();
