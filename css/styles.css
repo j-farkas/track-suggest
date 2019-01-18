@@ -13,3 +13,18 @@ label
 {
   font-weight: bold;
 }
+
+h3{
+  margin-top: 30%;
+}
+
+button.hidden{
+  margin-left: 40%;
+  font-family: serif;
+  border-radius: 5px;
+  width:350px;
+}
+
+button.btn:hover{
+  background-color:#00dddd;
+}
