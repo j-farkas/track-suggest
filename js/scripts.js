@@ -5,32 +5,36 @@ $(document).ready(function() {
       arr[parseInt($("#ans" + (i+1)).val()-1)] +=1;
     }
     $("#formOne").toggle();
-    $("button").toggle();
+    $("button.hidden").show();
     console.log(arr);
 
     if(arr[0] > arr[1] && arr[0] > arr[2] && arr[0] > arr[3]){
       //C# is highest
-      $("p").text("You should study C#");
+      $(".result").text("You should study C#");
+      $(".c").toggle();
     }else if(arr[1] > arr[0] && arr[1] > arr[2] && arr[1] > arr[3]){
       //Java is highest
-      $("p").text("You should study Java");
+      $(".result").text("You should study Java");
+      $(".java").toggle();
     }else if(arr[2] > arr[0] && arr[2] > arr[1] && arr[2] > arr[3]){
       //PHP is highest
-      $("p").text("You should study PHP");
+      $(".result").text("You should study PHP");
+      $(".php").toggle();
     } else if(arr[3] > arr[0] && arr[3] > arr[1] && arr[3] > arr[2]){
       //Ruby is highest
-      $("p").text("You should study Ruby");
+      $(".result").text("You should study Ruby");
+      $(".ruby").toggle();
     } else{
       //Tie
-      $("p").text("You're too indecisive, take the quiz again!");
+      $(".result").text("You're too indecisive, take the quiz again!");
     }
 
 
 
     event.preventDefault();
   });
-  $(".hidden").click(function(){
+  $("button.hidden").click(function(){
     $("#formOne").toggle();
-    $("button").toggle();
+    $(".hidden").hide();
   });
 });
