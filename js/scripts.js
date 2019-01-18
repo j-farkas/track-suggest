@@ -8,13 +8,13 @@ $(document).ready(function() {
     console.log(arr);
 
     if(arr[0] > arr[1] && arr[0] > arr[2] && arr[0] > arr[3]){
-      //A is highest
+      //C# is highest
     }else if(arr[1] > arr[0] && arr[1] > arr[2] && arr[1] > arr[3]){
-      //B is highest
+      //Java is highest
     }else if(arr[2] > arr[0] && arr[2] > arr[1] && arr[2] > arr[3]){
-      //C is highest
+      //PHP is highest
     } else if(arr[3] > arr[0] && arr[3] > arr[1] && arr[3] > arr[2]){
-      //D is highest
+      //Ruby is highest
     } else{
       //Tie
     }
