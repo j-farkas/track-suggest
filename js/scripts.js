@@ -64,6 +64,12 @@ $(document).ready(function() {
       }
     }
     $(".result").prepend($("#name").val() + ", ");
+    var lucky = parseInt(Math.random()*20000) % 75;
+    //13 isn't very lucky
+    if(lucky === 13){
+      lucky += 1;
+    }
+    $(".lucky").text(lucky);
     event.preventDefault();
   });
 
