@@ -8,3 +8,8 @@ img{
   width:72px;
   margin-right: 5px;
 }
+
+label
+{
+  font-weight: bold;
+}
