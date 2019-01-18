@@ -39,3 +39,27 @@ div.well{
 button.hidden:hover{
   background-color:#00dddd;
 }
+
+.purple{
+background-color:#93548b;
+}
+
+.red{
+background-color:#981501;
+}
+
+.blue{
+background-color:#3279b6;
+}
+
+.white{
+background-color:#ddddff;
+}
+
+.container{
+  background-color: #eeeeee;
+}
+
+button{
+  background-color:#bbbbbb;
+}
