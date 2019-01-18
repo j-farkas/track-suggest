@@ -63,7 +63,6 @@ $(document).ready(function() {
         }
       }
     }
-    console.log($("#name").val());
     $(".result").prepend($("#name").val() + ", ");
     event.preventDefault();
   });
